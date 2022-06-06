@@ -220,6 +220,28 @@ header {
 .light-green {
     background-color: #D0FD89;
 }
+.dark-green {
+    background-color: #AEBC41;
+}
+.dark-red {
+    background-color: #B86B78;
+}
+.orange {
+    background-color: #D68334;
+}
+.light-red {
+    background-color: #CD6255;
+}
+.yellow {
+    background-color: #FFFDBF;
+
+}
+.light-yellow {
+    background-color: #F6FDC8;
+}
+.light-pink {
+    background-color: #FEF7FE;
+}
 .catalog {
     width: 100%;
     background: #F6F6F6;
