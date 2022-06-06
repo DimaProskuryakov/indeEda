@@ -9,6 +9,9 @@ button {
     border: none;
     cursor: pointer;
 }
+a {
+    text-decoration: none;
+}
 header {
     max-width: 1196px;
     margin: 0 auto;
@@ -216,6 +219,7 @@ header {
     top: 16px;
     left: 10px;
     border-radius: 30px;
+    padding: 5px 10px;
 }
 .light-green {
     background-color: #D0FD89;
@@ -234,13 +238,18 @@ header {
 }
 .yellow {
     background-color: #FFFDBF;
-
 }
 .light-yellow {
     background-color: #F6FDC8;
 }
 .light-pink {
     background-color: #FEF7FE;
+}
+.white {
+    color: #FFFFFF;
+}
+.dark {
+    color:  #49494F;
 }
 .catalog {
     width: 100%;
@@ -257,3 +266,85 @@ header {
     font-weight: 500;
     font-size: 32px;
 }
+.categories ul {
+    list-style: none;
+    margin: 50px 0 62px;
+    padding: 0;
+    display: flex;
+    gap: 58px;
+}
+.categories a {
+    font-size: 20px;
+    color: #49494F;
+
+}
+
+.active {
+    color: #F37321;
+}
+.food-item {
+    background-color: #FFFFFF;
+     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0,1);
+    border-radius: 20px;
+    flex-basis: 270px;
+}
+.food-item img {
+    border-radius: 20px 20px 0 0;
+    max-width: 100%;
+}
+.food-item .price {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+}
+.food-item .weight {
+    font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+color: #AAAAB1;
+}
+.food-item h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 21px 23px 13px;
+}
+.food-item p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px ;
+    margin: 13px 27px 36px 23px;
+    color: #B9B9BE ;
+    
+}
+.food-cart .weight {
+    font-size: 500;
+    
+}
+.food-cart{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F37321;
+    border: 2px solid #F37321;
+border-radius: 33px;
+padding: 16px 25px 15px;
+background: #fff;
+}
+.food-info {
+    margin: 36px 24px 0 23px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 21px ;
+}
+.food-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.food-examples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 37px;
+}
+
